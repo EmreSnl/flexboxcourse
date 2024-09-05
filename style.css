@@ -1,0 +1,21 @@
+.baslik,
+.paragraf {
+    font-size: 30px;
+}
+
+.divider p {
+
+    color: indigo;
+}
+
+.divider-two > p {
+    background: darkred;
+}
+
+.span-one + h4 {
+    background-color: darkgreen;
+}
+
+h5 ~ div {
+    background: yellow;
+}
