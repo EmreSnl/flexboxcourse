@@ -19,3 +19,7 @@
 h5 ~ div {
     background: yellow;
 }
+
+a[target="_blank"] {
+    background: yellowgreen;
+}
