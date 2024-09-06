@@ -1,0 +1,19 @@
+.container {
+
+    border: 5px solid orange;
+    display: flex;
+    flex-direction: column;
+}
+
+.container > div:nth-child(1) {
+
+background-color: green;
+}
+.container > div:nth-child(2) {
+
+    background-color: blue;
+    }
+    .container > div:nth-child(3) {
+
+        background-color: green;
+        }
