@@ -1,0 +1,22 @@
+h1:hover {
+    background: yellow;
+} 
+
+a:active {
+    color: green;
+}
+
+input:focus {
+    border: 5px solid green;
+}
+
+p:first-child {
+    background: blue;
+    color: white;
+}
+
+p:nth-child(2n) {
+
+    background: darkred;
+    color: white;
+}
