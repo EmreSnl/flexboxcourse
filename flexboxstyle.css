@@ -1,10 +1,22 @@
+html,
+body {
+    background-color: gray;
+    margin: 10px;
+}
+
+
+.container> div {
+
+    padding: 10px;
+    font-size: 2em;
+}
+
 .container {
 
-    border: 5px solid orange;
-    display: flex;
-justify-content: center;
-align-items: center;
-height: 600px;}
+border: 5px solid orange;
+display: flex;
+height: 600px;
+flex-wrap: wrap;}
 
 .container > div:nth-child(1) {
 
@@ -21,11 +33,14 @@ background-color: green;
 
 
 .container>.home {
-    align-self: flex-end;
-    height: 100px;
-    margin-right: 100px;
+    height: 300px;
 }
 
 .container > .logout {
-    align-self: flex-start;
+    height: 300px;
+
+}
+.container >.search {
+    height: 300px;
+
 }
