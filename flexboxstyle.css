@@ -37,6 +37,7 @@ background-color: green;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
+    order: 1;
 }
 
 .container > .logout {
@@ -51,5 +52,6 @@ background-color: green;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
+    order: -1;
 
 }
