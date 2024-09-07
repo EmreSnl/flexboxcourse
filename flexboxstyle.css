@@ -2,13 +2,14 @@
 
     border: 5px solid orange;
     display: flex;
-    flex-direction: column;
-}
+justify-content: center;
+align-items: center;
+height: 600px;}
 
 .container > div:nth-child(1) {
 
 background-color: green;
-}
+}   
 .container > div:nth-child(2) {
 
     background-color: blue;
@@ -17,3 +18,14 @@ background-color: green;
 
         background-color: green;
         }
+
+
+.container>.home {
+    align-self: flex-end;
+    height: 100px;
+    margin-right: 100px;
+}
+
+.container > .logout {
+    align-self: flex-start;
+}
