@@ -34,13 +34,22 @@ background-color: green;
 
 .container>.home {
     height: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
 }
 
 .container > .logout {
     height: 300px;
+    flex-grow: 200px;
+    flex-shrink: 1;
+    flex-basis: 0;
 
 }
 .container >.search {
     height: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
 
 }
